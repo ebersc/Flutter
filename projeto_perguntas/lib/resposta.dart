@@ -20,7 +20,7 @@ class Resposta extends StatelessWidget {
                         borderRadius: BorderRadius.circular(0),
                     ),
                 ),
-                onPressed: () {},
+                onPressed: quandoSelecionado,
                 child: Text(texto),
             ),
         );
